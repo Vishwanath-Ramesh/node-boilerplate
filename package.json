@@ -1,38 +1,72 @@
 {
-  "name": "node-boilerplate",
+  "name": "server",
   "version": "1.0.0",
-  "description": "",
-  "main": "./src/server/index.js",
+  "description": "A boilerplate for NodeJS application",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
-    "babel": "babel src/ -d lib/",
-    "server": "node lib/server/index.js",
-    "dev": "webpack-dev-server --open --mode development --devtool inline-source-map"
+    "babel": "babel src --out-dir lib",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --ignore-path .gitignore --write .",
+    "check-format": "prettier --list-different .",
+    "validate": "yarn lint && yarn test && yarn build",
+    "validate-parallel": "npm-run-all --parallel format lint test build",
+    "test": "jest",
+    "test:related": "jest --findRelatedTests",
+    "test:report": "jest --coverage && serve ./coverage/lcov-report",
+    "test:watch": "jest --watchAll",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch",
+    "setup": "yarn install && yarn validate",
+    "build": "webpack",
+    "start": "node ./dist/server.js",
+    "dev": "nodemon -r dotenv/config ./src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vishwanath R",
   "license": "ISC",
   "dependencies": {
-    "css-loader": "^4.2.2",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "mongodb": "^3.6.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.11.6",
     "@babel/core": "^7.11.6",
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.11.5",
-    "@babel/preset-react": "^7.10.4",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/user-event": "^14.0.0",
     "babel-loader": "^8.1.0",
-    "clean-webpack-plugin": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
     "file-loader": "^6.1.0",
-    "html-webpack-plugin": "^4.4.1",
-    "style-loader": "^1.2.1",
-    "webpack-dev-server": "^3.11.0"
+    "husky": "^4.3.0",
+    "jest": "^26.6.0",
+    "lint-staged": "^10.4.2",
+    "nodemon": "^2.0.6",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.1.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && yarn lint && yarn test"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.+(js|ts|json)": [
+      "prettier --ignore-path .gitignore --write"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vishwanath-Ramesh/node-boilerplate.git"
   }
 }
