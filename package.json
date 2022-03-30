@@ -1,7 +1,7 @@
 {
-  "name": "server",
+  "name": "node-staffrex",
   "version": "1.0.0",
-  "description": "A boilerplate for NodeJS application",
+  "description": "The backend application for StaffRex site",
   "main": "src/index.js",
   "scripts": {
     "babel": "babel src --out-dir lib",
@@ -25,8 +25,10 @@
   "author": "Vishwanath R",
   "license": "ISC",
   "dependencies": {
+    "@sendgrid/mail": "^7.6.2",
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "formidable": "^2.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.11.6",

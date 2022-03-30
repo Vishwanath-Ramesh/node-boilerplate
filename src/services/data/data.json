@@ -1,0 +1,258 @@
+{
+  "home": {
+    "aboutUs": {
+      "title": "Why you should trust<br>Get To Know About Us",
+      "subTitle": "StaffRex is an established independent medical, nursing and care recruitment agency, operating globally, sourcing and placing physicians, nurses and allied health professionals, in the UK, India.",
+      "recruitmentAndStaffingTitle": "We specialise in the recruitment and staffing of:",
+      "recruitmentAndStaffingLists": [
+        "Qualified Nurses",
+        "Medical Technologists",
+        "Senior Care Assistants",
+        "Live In Care Staf",
+        "Consultants and Physicians",
+        "Allied Health Care Workers",
+        "Support Workers",
+        "Domiciliary Care Stafff"
+      ],
+      "recruitmentAndStaffingBody": "We offer excellent service and care as standard, with tailor made recruitment packages to suit every unique requirement, large or small and at every level within the healthcare sector.<br><br>Our service is friendly, reliable, professional and personal – and tailored to your needs, our experienced consultants operate with energy and enthusiasm to deliver our promises in a way that is clear, simple and effective. We believe in good communication and constantly seek to improve."
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "bannerLists": [
+        "Hi, I'm Arun Vidhya who arrived in the UK and is working as a Registered Nurse at University Hospitals Bristol and Weston. I received my pin numbers and I would like to Thank Mr. Ravish and Staffrex for being kind and really helpful throughout this process. Even after I landed here I didn't need to worry as they helped me and are helping me out with the understanding of living here. They have given me the comfort of reaching to them at any point of difficulty I might face. They are highly professional and can be trusted without any doubt. I am thankful for making my dream come true and  I strongly suggest Ravish and his team, Staffrex to all my dear friends who are trying to reach out for help."
+      ]
+    }
+  },
+  "about": {
+    "aboutStaffRexTitle": "ABOUT STAFFREX",
+    "aboutStaffRex": "Staffrex was started in November 2021. We are mainly working with RGN's, RMNs, Doctors, and IT Professionals. Most of our candidates are referred by our Existing / deployed candidates due to our high quality of service. We provide 360-degree support to candidates from recruitment to onboarding. StaffRex has a good number of CBT Passed candidates. We have an experienced team of Recruiters and Compliance staff and we are also tied up with third-party agencies for the initial screening and verification of candidates' documents. We also provide in-house training for OET (Coimbatore) and IELTS (Bangalore) in India",
+    "countriesOfOriginTitle": "COUNTRIES OF ORIGIN",
+    "outreachChannelsTitle": "OUTREACH CHANNELS",
+    "outreachChannelsList": [
+      "International sourcing team in India and UK",
+      "Social Media Marketing",
+      "Search Engine Optimization (SEO)",
+      "Webinars",
+      "Adverting on StaffRex Website",
+      "Brochures"
+    ],
+    "meetOurTeam": "MEET OUR TEAM",
+    "teamLists": [
+      {
+        "name": "RAVISH KUMAR",
+        "role": "Managing Director",
+        "about": "Mr. Ravish Kumar is from India, living in Aberdeen, Scotland for more than 7 years. He is an IT graduate with immense Procurement & Supply Chain Management experience for 10+ years in the IT & Banking Sector. He has 3+years of experience in a Recruitment Agency as a Compliance & Account Manager and Managed 4 Major NHS Trusts in England and deployed around 300+ Nurses. Before Registering StaffRex Limited, he worked as a freelancer for international nurses and has successfully deployed 18 nurses in NHS hospitals through various agencies.",
+        "lead": true,
+        "imageFileName": "ravish-photo.jpeg"
+      },
+      {
+        "name": "SRIKANTH BEJUGAMA",
+        "role": "Operations manager"
+      },
+      {
+        "name": "MICHAEL COOPER",
+        "role": "Compliance and Onboarding Manager"
+      },
+      {
+        "name": "AISHWARYA B ASHKAR",
+        "role": "Business Development and Marketing Manager",
+        "imageFileName": "aishwarya-photo.jpeg"
+      },
+      {
+        "name": "ALEX OLIVER",
+        "role": "Recruitment Lead"
+      },
+      {
+        "name": "GEETHA RAJKUMAR",
+        "role": "Compliance Consultant",
+        "imageFileName": "geetha-photo.jpeg"
+      },
+      {
+        "name": "SHANMUGAPRIYA",
+        "role": "Business Development Associate",
+        "imageFileName": "priya-photo.jpeg"
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "clients": {
+      "whyChooseUs": [
+        "Flexible and Adaptable",
+        "Good Pipeline of candidates at different stages of application",
+        "Guidance and support throughout the process",
+        "Managed Video interviews with dedicated support",
+        "High retention rates",
+        "Global Presence",
+        "Guidance, Support & Feedback",
+        "Timely Delivery"
+      ],
+      "contactDetails": [
+        {
+          "name": "RAVISH KUMAR",
+          "role": "Managing Director",
+          "phone": "07423270486",
+          "email": "Ravish@staffrex.co.uk"
+        },
+        {
+          "name": "AISHWARYA B ASHKAR",
+          "role": "Business Development and marketing manager",
+          "phone": "07570640258",
+          "email": "Aishwarya@staffrex.co.uk"
+        }
+      ]
+    },
+    "candidates": {
+      "whyChooseUs": [
+        "CBT support and training",
+        "NMC Application assistance",
+        "Financial assistance",
+        "Dedicated 24/7 Support",
+        "Access to various CBT Materials",
+        "Visa Applications",
+        "Talking about the life in the UK: Expenses, health care, NHS working conditions, weather etc",
+        "Regular communication with the nurse and live update to clients.",
+        "Pre deployment video guidance",
+        "Briefing of UK Quarantine",
+        "Pastoral Support from StaffRex"
+      ],
+      "contactDetails": [
+        {
+          "name": "RAVISH KUMAR",
+          "role": "Managing Director",
+          "phone": "07423270486",
+          "email": "Ravish@staffrex.co.uk"
+        },
+        {
+          "name": "MICHEAL COOPER",
+          "role": "Compliance and HR Consultant",
+          "phone": "07570640291",
+          "email": "Micheal@staffrex.co.uk"
+        }
+      ]
+    }
+  },
+  "eligibility": {
+    "youCallApplyTitle": "YOU CAN APPLY IF",
+    "languageTable": {
+      "columns": [
+        {
+          "name": "TEST"
+        },
+        {
+          "name": "LISTENING"
+        },
+        {
+          "name": "READING"
+        },
+        {
+          "name": "WRITING"
+        },
+        {
+          "name": "SPEAKING"
+        }
+      ],
+      "rows": [
+        {
+          "TEST": "IELTS",
+          "LISTENING": "7.0",
+          "READING": "7.0",
+          "WRITING": "6.5",
+          "SPEAKING": "7.0"
+        },
+        {
+          "TEST": "OET",
+          "LISTENING": "B",
+          "READING": "B",
+          "WRITING": "C+",
+          "SPEAKING": "B-Grade"
+        }
+      ]
+    },
+    "moreInfoLabel": "For more info visit:",
+    "moreInfoLinks": [
+      "https://www.nmc.org.uk/registration/joining-theregister/english-language-requirements/accepted-tests/",
+      "https://www.ielts.org/",
+      "https://www.occupationalenglishtest.org/"
+    ],
+    "documentsNeededTitle": "DOCUMENTS NEEDED",
+    "documentsNeededLists": [
+      "Nursing certificate",
+      "Passport",
+      "Registered Nurse Certificate",
+      "Clinical experience certificate",
+      "IELTS/OETS Certificate"
+    ],
+    "nmcTitle": "NMC",
+    "nmcDescription": "NMC (Nursing And Midwifery Council) is a regulator for nursing and midwifery associates. Nurses who work in the UK should have registered with NMC to ensure that the qualifications of the nurses are according to the established standards.",
+    "nmcProcessCTA": "REGISTER NOW",
+    "nmcProcessTitle": "NMC PROCESS",
+    "newsAndUpdateLink": "https://www.nmc.org.uk/news/news-and-updates/",
+    "registerNowLink": "https://www.nmc.org.uk/registration/joining-the-register/register-nurse-midwife/trained-outside-uk/how-to-guide/eligibility-and-qualification-application/begin/"
+  },
+  "contacts": {
+    "contactTitle": "CONTACT DETAILS",
+    "contactLists": [
+      {
+        "name": "RAVISH KUMAR",
+        "role": "Managing Director",
+        "phone": "07423270486",
+        "email": "Ravish@staffrex.co.uk"
+      },
+      {
+        "name": "MICHAEL COOPER",
+        "role": "Compliance and HR Consultant",
+        "phone": "07570640291",
+        "email": "Micheal@staffrex.co.uk"
+      },
+      {
+        "name": "AISHWARYA B ASHKAR",
+        "role": "Business Development and marketing manager",
+        "phone": "07570640258",
+        "email": "Aishwarya@staffrex.co.uk"
+      }
+    ]
+  },
+  "applicationForm": {
+    "title": "APPLICATION FORM",
+    "firstNameLabel": "First Name",
+    "lastNameLabel": "Last Name",
+    "emailAddressLabel": "Email Address",
+    "whatsappNumberLabel": "Whatsapp Number",
+    "takenOETLabel": "Have you taken OET?",
+    "OETTakenItems": [
+      {
+        "id": "YES",
+        "value": "Yes",
+        "label": "Yes"
+      },
+      {
+        "id": "NO",
+        "value": "No",
+        "label": "No"
+      }
+    ],
+    "OETReadingLabel": "Reading",
+    "OETWritingLabel": "Writing",
+    "OETListeningLabel": "Listening",
+    "OETSpeakingLabel": "Speaking",
+    "takenIELTSLabel": "Have you taken IELTS?",
+    "IELTSTakenItems": [
+      {
+        "id": "YES",
+        "value": "Yes",
+        "label": "Yes"
+      },
+      {
+        "id": "NO",
+        "value": "No",
+        "label": "No"
+      }
+    ],
+    "IELTSReadingLabel": "Reading",
+    "IELTSWritingLabel": "Writing",
+    "IELTSListeningLabel": "Listening",
+    "IELTSSpeakingLabel": "Speaking",
+    "attachCVLabel": "Attach CV",
+    "applyNowCTALabel": "Apply Now"
+  }
+}
